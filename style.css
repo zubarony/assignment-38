@@ -21,16 +21,17 @@ img{
     max-width: 100%;
 
 }
+/* header */
+.logo{
+    width: 30%;
+}
 .logo img {
     width: 190px;
-    float: left;
+
 }
+    
 .menu{
     background: #f5deb3;
-    
-}
-.primary-menu{
-    float: right;
     
 }
 .primary-menu ul{
@@ -44,13 +45,16 @@ img{
     color: rgb(255, 255, 255);
     padding: 10px 30px;
     margin-top: 22px;
-    /* line-height: 79px; */
+    
     font-size: 25px;
     font-weight: 500;
     display: block;
     border-right: 1px solid white;
 }
-/* banner */
+/* banner section */
+
+
+
 .banner {
     background: url(./intro-bg.jpg) center center;
     padding: 250px;
@@ -70,18 +74,19 @@ img{
 .banner-content h2 {
     font-size: 40px;
 }
+/* .about */
+
+
 .about {
     padding: 125px 0;
 }
-.about-hello{
-    display: flex;
-}
+
 .about-img{
     width: 40%;
 }
 .about-content {
-    width: 50%;
-    margin-left: 20px;
+    width: 60%;
+    
 }
 .about-img img {
     width: 350px;
@@ -100,6 +105,11 @@ img{
 .about-content p {
     line-height: 42px;
 }
+
+
+/* service sectoin */
+
+
 .service{
     
    padding: 100px;
@@ -143,6 +153,7 @@ img{
     box-shadow: 1px 1px 30px rgba(99, 107, 219, 0.219);
 
 }
+/* footer section */
 .footer{
     background: #000;
     color: white;
@@ -165,62 +176,3 @@ img{
     transition: .5s;
 }
 
-
- @media(max-width: 983px){
-    .primary-menu ul li a {
-       
-        padding: 10px 25px;
-        
-    }
-    .banner-content h2 {
-        font-size: 28px;
-        width: -16px;
-    }
-    .menu {
-        background: #75f1b0;
-       
-    }
-}
-@media(max-width: 923px){
-    .logo {
-        text-align: center;
-    }
-    .primary-menu ul {
-        list-style: none;
-        text-align: center;
-        
-    }
-    .right {
-        float: none;
-    }
-    .primary-menu ul li a {
-        border: none;
-        padding: 10px 20px;
-    }
-    .left{
-        float: none;
-    }
-    .banner-content h2 {
-        font-size: 25px;
-    }
-    .about-img img {
-        width: 250px;
-        margin-left: 97px;
-    }
-    .about-content p {
-        line-height: 20px;
-        font-size: 14px;
-    }
-    .left {
-        float: left;
-    }
-}
-@media(max-width: 727px)
-{
-    .primary-menu ul li a {
-        padding: 11px 13px;
-        padding-top: 0;
-        margin-top: 0;
-        font-size: 22px;
-    } 
-}
